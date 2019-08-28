@@ -1,0 +1,66 @@
+
+.CityDetailBox{
+    width: 12em;
+    height: 20em;
+    border: 1px solid black;
+    margin: 3em;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(3, 3, 3, 0.29);
+  transition: all .4s ease-in-out;
+  background-color: rgb(69, 63, 63);
+}
+
+.CityDetailBox:hover { 
+  transform: scale(1.08); 
+}
+.CityDetailBoxClose{
+    margin-left: 80%;
+    margin-top: 4%;
+    user-select:none;
+}
+.cityName{
+    margin-top: 0 ;
+}
+.weatherDesc{
+    margin:0;
+    margin-top: .3em;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.description{
+    width: 5.5em;
+    margin-left: 25% auto;
+}
+.temperature{
+    margin: auto;
+    margin-right: 5%;
+}
+
+.far{
+    font-size:48px;
+    color:white;
+}
+.fas{
+    font-size:48px;
+    color:greenyellow;   
+}
+
+.icon{
+    background-color:rgb(235, 235, 235);
+    margin: 0 auto;
+    margin-left: 10%;
+    margin-top: 4%;
+    border-radius: 35%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(3, 3, 3, 0.29);
+}
+.iconStar{
+    margin: 0 auto;
+    width: 3em;
+    height: 3em;
+    margin-top: 8%;
+    border-radius: 35%;
+}

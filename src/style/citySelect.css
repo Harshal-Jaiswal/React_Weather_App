@@ -1,0 +1,50 @@
+.homeScreen{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, 18em);
+}
+
+
+.CitySelectBox{
+    width: 12em;
+    height: 20em;
+    border: 1px solid black;
+    margin: 3em;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(3, 3, 3, 0.29);
+  transition: all .4s ease-in-out;
+  background-color: rgb(69, 63, 63);
+}
+.CitySelectBox:hover { 
+  transform: scale(1.08); 
+  }
+
+  .CitySelectBoxClose{
+    margin-top: 5%;
+    margin-left: 85%;
+    user-select:none;
+    color: white;
+}
+
+.CityAddBtn{
+    width: 6em;
+    height: 2em;
+    margin-top: 80%;
+    background:white;
+    border-color:whitesmoke;
+    font-size:1em;
+    color: black;
+    border-radius: 0.9em;
+    border-style: solid;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.CitySelectNav{
+  margin-top: 30%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.PlusSign{
+    margin: auto;
+}

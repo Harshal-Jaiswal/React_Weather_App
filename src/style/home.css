@@ -1,0 +1,43 @@
+.navBar{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 4.5em);
+    color: white;
+    background-color: rgb(69, 63, 63);
+}
+
+.navBarHomeOption{
+    border: wheat solid 1px;
+    border-radius: .5em;
+    margin: .3em auto;
+    padding: .3em;
+    user-select:none;
+
+}
+.navBarHomeOption:hover{
+    transform: scale(1.08); 
+}
+.navBarFavOption{
+    border: wheat solid 1px;
+    border-radius: .5em;
+    margin: .3em auto;
+    padding: .3em;
+    user-select:none;
+}
+.navBarFavOption:hover{
+    transform: scale(1.08);    
+}
+.homeButton{
+    text-decoration: none;
+    color: white;
+}
+.favButton{
+    text-decoration: none;
+    color: white;
+}
+.footer {
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: white;
+   }
